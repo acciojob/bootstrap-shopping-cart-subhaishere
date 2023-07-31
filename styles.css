@@ -1,34 +1,12 @@
-/*  your css code here. If applicable */
-/*  your css code here. If applicable */
- *{
-            margin: 0 !important;
-            padding: 0 !important;
-            box-sizing: border-box !important;
-        }
-        body{
-            background-color: #eff0f0 !important;
-        }
-	.heading h2{
-		color: #3b99e0 
-	}
-        .summary{
-            background-color: #f7fbff !important;
-            border-top: 3px solid #5ea4f3 !important;
-             
-            
-        }
-        span{
-            display: block;
-        }
-        div.button button{
-            width: 100%;
+.main{
+    background-color: #f7fbff;
+}
 
-        }
-        div.products input{
-            width: 4rem;
-            text-align: center;
-        }
-        .product-1 div{
-            /* border: 1px solid red; */
-            align-items: center; 
-          
+.main h1,h5{
+    color: #3b99e0;
+}
+
+.col-md-3{
+    background-color: #f7fbff;
+    border-top: 2px solid #5ea4f3;
+}
